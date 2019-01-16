@@ -2,6 +2,14 @@
   text-align: center;
 }
 
-img {
-  width:25%;
-}
+
+.container1{
+  display: flex;}
+  .row1{
+    flex: 1;
+  }
+.container2{
+  display: flex;}
+  .row2{
+    flex: 1;
+    }
