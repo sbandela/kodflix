@@ -3,13 +3,8 @@
 }
 
 
-.container1{
+.container{
   display: flex;}
-  .row1{
+  .item{
     flex: 1;
   }
-.container2{
-  display: flex;}
-  .row2{
-    flex: 1;
-    }
