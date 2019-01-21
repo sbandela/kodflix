@@ -5,28 +5,30 @@
 
 .container{
   display: flex;}
-  .item{
-    flex: 1;
-    border: 1px solid green;
-    position: relative;
-  }
+.item{
+  flex: 1;
+  border: 1px solid green;
+  position: relative;
+  overflow: hidden;
+}
 
-  .overlay{
-    display:none;
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
-    background-color: rgb(208, 211, 43);
-    opacity: 5;
+.overlay{
+  transition: bottom ease 1s;
+  position:absolute;
+  bottom:-100px;
+  left:0;
+  width:100%;
+  background-color: rgb(208, 228, 26);
+  opacity: 0.6;
   }
-  .item:hover .overlay{
-    display: block
-  }
+.item:hover .overlay{
+  opacity: 0.6;
+  bottom:0;
+}
 
-  @media only screen and (max-width: 600px) {
-    .container{
-      flex-direction: column
-      ;
-    }
-  }
+@media only screen and (max-width: 600px) {
+.container{
+  flex-direction: column
+  ;
+}
+}
