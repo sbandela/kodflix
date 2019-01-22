@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Tvshow from './Tvshow';
 import blackmirrorlogo from './images/BlackMirror_logo.jpg'
 import breakingbadlogo from './images/BreakingBad_logo.jpeg'
 import deathnotelogo from './images/DeathNote_logo.jpg'
@@ -8,6 +8,7 @@ import gotlogo from './images/GOT_logo.jpeg'
 import thewirelogo from './images/TheWire_logo.jpg'
 import './App.css';
 
+
 class App extends Component {
   render() {
     return (
@@ -15,48 +16,20 @@ class App extends Component {
 
         <br /><br /><br />
         <div className='container'>
-          <div className='item'>
-            <img src={blackmirrorlogo} alt="BlackMirrorLogo" />
-            <div className='overlay'>
-              <h1>Black Mirror</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={breakingbadlogo} alt='BreakingBadLogo' />
-            <div className='overlay'>
-              <h1>Breaking Bad</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={deathnotelogo} alt='DeathNoteLogo' />
-            <div className='overlay'>
-              <h1>Death Note</h1>
-            </div>
-          </div>
+          <Tvshow name='BlackMirror' logo={blackmirrorlogo} />
+          <Tvshow name='BreakingBad' logo={breakingbadlogo} />
+          <Tvshow name='DeathNote' logo={deathnotelogo} />
         </div>
         <div className='container'>
-          <div className='item'>
-            <img src={gotlogo} alt='GotLogo' />
-            <div className='overlay'>
-              <h1>Game of Thrones</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={fearthewalkingdeadlogo} alt='FearTheWalkingDeadLogo' />
-            <div className='overlay'>
-              <h1>Fear The Walking Dead</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={thewirelogo} alt='TheWireLogo' />
-            <div className='overlay'>
-              <h1>The Wire</h1>
-            </div>
-          </div>
+          <Tvshow name='FearTheWalkingDead' logo={fearthewalkingdeadlogo} />
+          <Tvshow name='GameOfThrones' logo={gotlogo} />
+          <Tvshow name='TheWire' logo={thewirelogo} />
         </div>
       </div>
     );
   }
 }
+
+
 
 export default App;
