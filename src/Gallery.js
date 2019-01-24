@@ -15,8 +15,6 @@ export default function Gallery() {
         <Tvshow id='black-mirror' name='BlackMirror' logo={blackmirrorlogo} />
         <Tvshow id='breaking-bad' name='BreakingBad' logo={breakingbadlogo} />
         <Tvshow id='death-note' name='DeathNote' logo={deathnotelogo} />
-      </div>
-      <div className='container'>
         <Tvshow id='fear-the-walking-dead' name='FearTheWalkingDead' logo={fearthewalkingdeadlogo} />
         <Tvshow id='game-of-thrones' name='GameOfThrones' logo={gotlogo} />
         <Tvshow id='the-wire' name='TheWire' logo={thewirelogo} />
