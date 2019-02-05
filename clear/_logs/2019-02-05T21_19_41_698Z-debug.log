@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   '--cache',
+1 verbose cli   'clear' ]
+2 info using npm@6.1.0
+3 info using node@v10.6.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle kodflix@0.1.0~prestart: kodflix@0.1.0
+6 info lifecycle kodflix@0.1.0~start: kodflix@0.1.0
+7 verbose lifecycle kodflix@0.1.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle kodflix@0.1.0~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/siri/kodflix/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle kodflix@0.1.0~start: CWD: /Users/siri/kodflix
+10 silly lifecycle kodflix@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+11 timing npm Completed in 1736685ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://github.com/npm/npm/issues>
