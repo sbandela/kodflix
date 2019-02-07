@@ -7,7 +7,7 @@ import thewirelogo from './images/TheWire_logo.jpg';
 
 export default function getGallery() {
     return [
-      { id: 'black-mirror', name: 'BlackMirror', logo: blackmirrorlogo },
+      { id: 'black-mirror', name: 'BlackMirror', logo: blackmirrorlogo, details: 'Black Mirror is a British anthology science fiction television series created by Charlie Brooker, with Brooker and Annabel Jones serving as the programme showrunners. It examines modern society, particularly with regard to the unanticipated consequences of new technologies.' },
       { id: 'breaking-bad', name: 'BreakingBad', logo: breakingbadlogo },
       { id: 'death-note', name: 'DeathNote', logo: deathnotelogo },
       { id: 'fear-the-walking-dead', name: 'FearTheWalkingDead', logo: fearthewalkingdeadlogo },
